@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    font-feature-settings: 'liga' 0;
+    font-size: 18.4px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.sidebar{
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    background: url("http://web.stanford.edu/class/cs193x/images/background.png");
+    background-size: cover;
+    display: inline-block;
+}
+
+nav {
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    justify-content: space-around;
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 0.1em;
+    list-style-type: none;
+}
+.link{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.sidebar-body{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.sidebar-body a {
+    color: #fff;
+    text-decoration: none;
+}
+.sidebar-body h1{
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.1;
+}
+.bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+.main{
+    height: auto;
+    width: 60%;
+    position: absolute;
+    right: 0;
+}
+.main .link {
+    color: black;
+}
+.content{
+    padding: 0 60px;
+}
+article header h2 {
+    font-family: "Space Mono",monospace;
+    font-size: 1em;
+    margin: 0;
+}
+article h1 {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+span.label {
+    background-color: rgba(254, 105, 147, 0.1);
+    border-radius: 3px;
+    color: #fe6993;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.3em 0;
+    line-height: 1em;
+    margin: 0;
+    font-size: 85%;
+}
+.main .content a{
+    text-decoration: none;
+}
+.main .content a:hover {
+    color: #fe6993;
+}
