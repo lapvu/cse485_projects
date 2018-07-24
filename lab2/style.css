@@ -11,17 +11,22 @@ nav{
     z-index: 1;
 }
 nav img{
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 75px;
     margin-left: 10px;
-    border-radius: 90px;
+    border-radius: 50%;
 }
 .menu{
     height: 100%;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .menu a{
     padding:10px 25px;
-    line-height: 75px;
+    margin:0 10px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -30,8 +35,16 @@ nav img{
     border: 2px solid white;
     border-radius: 20px;
 }
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
 header{
-    height: 400px;
+    height: 500px;
     background: url("https://static1.squarespace.com/static/55b60ec1e4b04e39fb62363c/t/586d0e0e414fb50795ed7f4a/1391287287792/?format=1500w") no-repeat;
     background-size: cover;
     background-position: center;
