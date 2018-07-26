@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+    background: greenyellow
+}
+.main{
+    width: 70%;
+}
+.sidebar{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    background: blueviolet;
+    color: #fff;
+}
+.sidebar h1{
+    margin-top: 100px;
+}
+.sidebar input {
+    padding: 5px;
+}
+.sidebar button{
+    padding: 7px 15px;
+    border: none;
+    border: #00205c solid 1px;
+    background: #1f6bf7;
+    color: #fff;
+    cursor: pointer;
+}
+.sidebar button:hover{
+    background: #6595ee;
+}
+.main img{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.image{
+    height: 90%;
+    position: relative;
+    background: #6598f5;
+}
+.main h2{
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
